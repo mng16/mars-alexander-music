@@ -1,0 +1,12 @@
+{
+    "extends": [
+      "react-app",
+      "airbnb"
+    ],
+    "plugins": [
+      "jsx-a11y"
+    ],
+    "rules": {
+        "semi": 0
+    }
+  }
