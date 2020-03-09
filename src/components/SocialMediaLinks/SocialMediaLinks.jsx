@@ -10,10 +10,10 @@ const SocialMediaLink = ({ url, logo }) => (
   </div>
 );
 
-const SocialMediaLinks = ({ socialMediaLinks }) => 
+const SocialMediaLinks = ({ socialMediaDetails }) => 
 <div className="social-media-links">
 
-{socialMediaLinks.map((link) => (
+{socialMediaDetails.map((link) => (
   <SocialMediaLink
     url={link.url}
     logo={link.logo}
