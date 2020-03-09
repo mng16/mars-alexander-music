@@ -8,7 +8,7 @@ import Videos from '../Videos';
 
 const Routes = () => (
   <>
-    <Route path="/" component={News} />
+    <Route path="/news" component={News} />
     <Route path="/gigs" component={Gigs} />
     <Route path="/music" component={Music} />
     <Route path="/videos" component={Videos} />
